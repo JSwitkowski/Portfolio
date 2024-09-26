@@ -1,57 +1,34 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
     <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
         <title>Home Page</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
         <style>
             body {
                 background: #2f2f2f;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            a {
+                font-size: 30px;
+                font-family: impact;
+                padding: 25px;
+                margin: 20px;
+                border: 10px solid gray;
+                margin: 0;
+                color: lightgrey;
+                text-decoration: none;
+                background: #1f1f1f;
             }</style>
+
     </head>
     <body style="color:lightgrey;">
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>Introduction</h1>
-        <p>This is an introduction to myself and my web endeavors.</p>
-        <h2>Who am I?</h2>
-        <p>My name is Jacob Switkowski, I am an Engineering student at Penn State Behrend. I also
-            work as a CNC Machinist at a small manufacturing company in Erie County. I spend my free
-            time learning about all different sorts of technology and information that I find
-            interesting. I also like working with my hands doing construction, working on cars, and
-            building things.</p>
-        <h3>What this is about</h3>
-        <p>I am creating this web page to help myself organize my thoughts, files, and any other
-            information and subjects I would like to keep here.</p>
-        <h3>Things about me</h3>
-        <p>A list of my favorite games, but I can't pick a particular order.</p>
-        <ul>
-            <li>Portal 2</li>
-            <li>Half Life: Alyx</li>
-            <li>Bioshock Infinite</li>
-            <li>Cyberpunk 2077</li>
-            <li>Hogwarts Legacy</li>
-        </ul>
-        <p>A list of my favorite cities to be in, <strong>in order</strong>.</p>
-        <ol>
-            <li>Erie, Pennsylvania</li>
-            <li>Niagara Falls, New York</li>
-            <li>Cleveland, Ohio</li>
-        </ol>
-        <figure>
-            <img src="images/Evil-Monsters.jpg" />
-            <figcaption>An image of my dogs taken in my back yard</figcaption>
-        </figure>
+        <a href="academic.html">Academic</a>
+        <a href="about-me.html">Personal</a>
+        <a href="professional.html">Professional</a>
     </body>
 </html>

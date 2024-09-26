@@ -1,0 +1,23 @@
+           body {
+                background: #2f2f2f;
+            }
+            a{ color:lightblue;}
+            a:visited {
+                color: lightblue;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            nav {
+                background: #1f1f1f;
+            }
+            nav a:visited {
+                color: lightgrey;
+            }
+            nav a
+            {
+                color: lightgrey;
+                text-decoration: none;
+                background: #1f1f1f;
+
+            
