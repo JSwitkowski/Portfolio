@@ -1,0 +1,48 @@
+nav div
+{
+    font-family: impact;
+    font-size: 50px;
+    position: absolute;
+    top: 70px;
+    left: 350px;
+    transform: translate(-50%, -50%);
+}
+nav p {
+    position: absolute;
+    top: 75px;
+    left: 420px;
+    transform: translate(-50%, -50%);
+}
+body {
+    background: #2f2f2f;
+}
+a {
+    color: lightblue;
+}
+a:visited {
+    color: lightblue;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    background: #1f1f1f;
+}
+nav a:visited {
+    color: lightgrey;
+}
+nav a
+{
+    color: lightgrey;
+    text-decoration: none;
+    background: #1f1f1f;
+}
+p {
+    margin: 30px;
+}
+h1,
+h2,
+h3,
+h4 {
+    margin: 20px;
+}

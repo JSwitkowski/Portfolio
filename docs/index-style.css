@@ -1,0 +1,29 @@
+
+body {
+    background: #2f2f2f;
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+a {
+    font-size: 150%;
+    font-family: impact;
+    padding: 25px;
+    margin: 0%;
+    border: 10px solid gray;
+    color: lightgrey;
+    text-decoration: none;
+    background: #1f1f1f;
+}
+div a {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background: 0px;
+
+}
