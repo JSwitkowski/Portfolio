@@ -46,11 +46,12 @@ h3,
 h4 {
     margin: 10px;
 }
-div left {
+div.left {
     position: absolute;
     left: 5vw;
+    right:25vw;
 }
-div right {
+div.right {
     position: absolute;
-    left:80vw;
+    left:75vw;
 }
